@@ -7,4 +7,13 @@ todo: comments
 ## Azure AI Services (https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services)
 todo: comments
 
+# Integration Design Patterns for AI
 
+## Knowledge Retrieveal Pattern
+todo: update
+
+## Function Calling Pattern
+todo: update
+
+## Thread Context Patter
+todo: update
