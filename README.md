@@ -25,6 +25,10 @@ todo: update
 
 This pattern involves decoupling system components through asynchronous message passing. By using events to trigger data flows organizations can react to changes in real-time, which is crucial for feeding LLMs with the latest data. It supports scalability and resilience, as components can scale independently and failures in one area don't directly impact others which is critical in providing most accurate data in timely manner.
 
-## LLM Content Enricher 
+## LLM Content Enricher Pattern 
 
 This pattern involves augmenting LLM's with additional data retrieved from other sources. In the context of AI, enriching data in transit can provide models with additional context, improving their accuracy and effectiveness.
+
+## Canonical AI Data Model Pattern
+
+Defining a common AI data format for messages flowing between systems reduces the complexity of data transformations. This is essential for AI and ML systems that integrate with multiple sources, ensuring that data is consistently understood regardless of its origin.
