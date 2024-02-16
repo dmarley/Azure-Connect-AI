@@ -6,7 +6,7 @@ This article series outlines definitive guidance, processes, design patterns, an
 
 todo: comments
 
-## https://azure.microsoft.com/en-us/products/copilot
+## [Microsoft Copilot](https://azure.microsoft.com/en-us/products/copilot )
 
 todo: comments
 
@@ -87,6 +87,26 @@ Defining a common AI data format for messages flowing between systems reduces th
 ## Gateway Source Data Aggregation Pattern
 
 Combining responses from several services or Systems of Record's (SoR) into a single response reduces the number of round trips while fetching data. This is particularly beneficial in AI systems where a single query may need to pull data from multiple sources to provide a comprehensive answer.
+
+
+
+[[IMAGE HERE]]
+
+
+
+## Data Lakehouse Pipeline
+
+A modern AI take on the Data Lake and Data Warehouse concepts, integrating a Data Lakehouse as a central repository allows for both structured and unstructured data to be stored, managed, and analyzed efficiently. This is vital for training and refining AI models, providing them access to a wide variety of data in a timely manner.
+
+
+
+[[IMAGE HERE]]
+
+
+
+## Circuit Breaker
+
+To prevent a failure in one service from cascading through the system, a circuit breaker temporarily halts operations to a particular service when failures reach a threshold. This is critical for maintaining system stability and ensuring that AI services remain available even when certain integrations are experiencing issues.
 
 
 
