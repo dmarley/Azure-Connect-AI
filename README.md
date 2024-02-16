@@ -2,11 +2,11 @@
 
 This article series outlines definitive guidance, processes, design patterns, and reference implemenations to enable Integrations to Azure's suite of AI Technologies (Azure OpenAI Service, Microsoft Copilot for Azure, Azure AI Search, ...), using Azure Integration Service in combination with Azure Landing Zones. 
 
-## Azure AI Services [[link]]([What are Azure AI services? - Azure AI services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services))
+## [[link]]([What are Azure AI services? - Azure AI services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services))
 
 todo: comments
 
-## Microsoft Copilot  [[link]]([Microsoft Copilot for Azure - AI Companion and Assistant | Microsoft Azure](https://azure.microsoft.com/en-us/products/copilot))
+## [[link]]([Microsoft Copilot for Azure - AI Companion and Assistant | Microsoft Azure](https://azure.microsoft.com/en-us/products/copilot))
 
 todo: comments
 
