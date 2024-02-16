@@ -2,11 +2,11 @@
 
 This article series outlines definitive guidance, processes, design patterns, and reference implemenations to enable Integrations to Azure's suite of AI Technologies (Azure OpenAI Service, Microsoft Copilot for Azure, Azure AI Search, ...), using Azure Integration Service in combination with Azure Landing Zones. 
 
-## [[link]]([What are Azure AI services? - Azure AI services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services))
+## [What are Azure AI services? - Azure AI services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services)
 
 todo: comments
 
-## [[link]]([Microsoft Copilot for Azure - AI Companion and Assistant | Microsoft Azure](https://azure.microsoft.com/en-us/products/copilot))
+## Microsoft Copilot for Azure - AI Companion and Assistant | Microsoft Azure](https://azure.microsoft.com/en-us/products/copilot))
 
 todo: comments
 
@@ -39,3 +39,9 @@ This pattern involves augmenting LLM's with additional data retrieved from other
 ## Canonical AI Data Model Pattern
 
 Defining a common AI data format for messages flowing between systems reduces the complexity of data transformations. This is essential for AI and ML systems that integrate with multiple sources, ensuring that data is consistently understood regardless of its origin.
+
+
+
+## Gateway Source Data Aggregation Pattern
+
+Combining responses from several services or Systems of Record's (SoR) into a single response reduces the number of round trips while fetching data. This is particularly beneficial in AI systems where a single query may need to pull data from multiple sources to provide a comprehensive answer.
