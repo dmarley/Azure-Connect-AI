@@ -22,7 +22,7 @@ todo: update
 
 
 
-![alt text](Images/KnowedgeRetrievealPattern.png "Knowedge Retrieveal Pattern")
+![Knowedge Retrieveal Pattern](./Images/KnowedgeRetrievealPattern.png)
 
 ## Function Calling Pattern
 
