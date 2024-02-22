@@ -16,7 +16,7 @@ Integrating large-scale systems, especially in the context of supporting large l
 
 ## Knowledge Retrieval Pattern
 
-In the context of AI integration, especially with systems like OpenAI's API, refers to a design strategy used to efficiently extract, format, and utilize information from a knowledge base or dataset to answer queries, make recommendations, or perform specific tasks. This pattern is crucial in applications that rely on accessing a vast amount of structured or unstructured data to provide insights or solutions to user queries.
+In the context of AI integration, especially with systems like Azure's OpenAI's API, refers to a design strategy used to efficiently extract, format, and utilize information from a knowledge base or dataset to answer queries, make recommendations, or perform specific tasks. This pattern is crucial in applications that rely on accessing a vast amount of structured or unstructured data to provide insights or solutions to user queries.
 
 The knowledge retrieval pattern is essential for building AI systems that can effectively access and leverage large datasets to provide accurate, relevant, and timely answers to user queries. It underpins various applications, from chatbots and virtual assistants to complex decision support systems and automated research tools. This pattern emphasizes the importance of not just retrieving data but processing and presenting it in a way that aligns with the user's needs and expectations.
 
@@ -42,7 +42,7 @@ This pattern ensures that the data is in the right format and contains all neces
 
 ## Thread Context Pattern
 
-in AI integration plays a crucial role in managing and maintaining the context of an ongoing conversation or series of interactions between the user and the AI system. This pattern is especially important in applications that involve conversational AI, such as chatbots, virtual assistants, and customer support systems, where understanding the flow and history of the conversation is crucial to providing coherent, relevant, and personalized responses.
+In AI integration plays a crucial role in managing and maintaining the context of an ongoing conversation or series of interactions between the user and the AI system. This pattern is especially important in applications that involve conversational AI, such as chatbots, virtual assistants, and customer support systems, where understanding the flow and history of the conversation is crucial to providing coherent, relevant, and personalized responses.
 
 
 
