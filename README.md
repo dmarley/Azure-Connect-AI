@@ -22,7 +22,7 @@ todo: update
 
 
 
-[[IMAGE HERE]]
+![alt text](Images/KnowedgeRetrievealPattern.png "Knowedge Retrieveal Pattern")
 
 ## Function Calling Pattern
 
