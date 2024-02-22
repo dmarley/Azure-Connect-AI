@@ -36,7 +36,7 @@ This pattern ensures that the data is in the right format and contains all neces
 
 
 
-![Function Calling Pattern](https://github.com/dmarley/Azure-Connect-AI/blob/main/Images/FunctionCallingPattern.png?raw=true)
+![Function Calling Pattern](https://github.com/dmarley/Azure-Connect-AI/blob/main/Images/FunctionCallingPlattern.png?raw=true)
 
 ## 
 
