@@ -29,8 +29,7 @@ todo: update
 todo: update
 
 
-
-[[IMAGE HERE]]
+![Function Calling Pattern](https://github.com/dmarley/Azure-Connect-AI/blob/main/Images/FunctionCallingPattern.png?raw=true)
 
 
 
