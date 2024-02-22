@@ -22,7 +22,7 @@ todo: update
 
 
 
-![Knowedge Retrieveal Pattern](./Images/KnowedgeRetrievealPattern.png)
+![Knowedge Retrieveal Pattern](https://github.com/dmarley/Azure-Connect-AI/blob/main/Images/KnowledgeRetrievealPattern.png?raw=true)
 
 ## Function Calling Pattern
 
