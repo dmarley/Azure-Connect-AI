@@ -26,15 +26,9 @@ The knowledge retrieval pattern is essential for building AI systems that can ef
 
 In the context of AI, particularly when working with APIs such as Azure's OpenAI, a "Function Calling Pattern" refers to a structured way of invoking functions, often to process or manipulate data, so that it can be efficiently used by the AI for tasks such as understanding, generating responses, or further analysis. This pattern is crucial for interfacing with complex systems where data needs to be formatted or augmented in a specific manner for optimal API interaction.
 
-
-
 When creating a custom function to add necessary information to a list of dictionaries for OpenAI's API, you're essentially preparing the data in a way that aligns with how the API expects to receive inputs. This preparation can include tasks like adding tokens, setting up prompts, or structuring metadata in a manner that enhances the API's ability to understand and process the request effectively.
 
-
-
 This pattern ensures that the data is in the right format and contains all necessary information before it's sent to the OpenAI API, enabling more efficient processing and better outcomes from the API's functionality.
-
-
 
 ![Function Calling Pattern](https://github.com/dmarley/Azure-Connect-AI/blob/main/Images/FunctionCallingPlattern.png?raw=true)
 
@@ -44,45 +38,39 @@ This pattern ensures that the data is in the right format and contains all neces
 
 In AI integration plays a crucial role in managing and maintaining the context of an ongoing conversation or series of interactions between the user and the AI system. This pattern is especially important in applications that involve conversational AI, such as chatbots, virtual assistants, and customer support systems, where understanding the flow and history of the conversation is crucial to providing coherent, relevant, and personalized responses.
 
-
-
 Key aspects of the Thread Context Pattern include:
 
-Contextual Memory:
+**Contextual Memory:**
 
 - The AI system keeps track of previous interactions within a session or conversation. This includes remembering the user's queries, the system's responses, and any relevant information that has been exchanged. This memory allows the AI to maintain a coherent dialogue and build on previous interactions.
 
-Session Management:
+**Session Management:**
 
 - The system manages session-specific information that helps in distinguishing between different users or different instances of interaction with the same user. Session management ensures that the context is maintained accurately across multiple interactions, even if they occur over extended periods.
 
-Contextual Understanding:
+**Contextual Understanding:**
 
 - Beyond just storing the context, the AI system interprets the context to understand the user's intent and how it evolves throughout the conversation. This involves using NLP and machine learning techniques to analyze the semantics of the conversation and adjust responses accordingly.
 
-Personalization:
+**Personalization:**
 
 - By maintaining a thread context, the system can personalize responses based on the user's previous inputs, preferences, and behavior. This can enhance user satisfaction by making interactions feel more engaging and tailored to the individual's needs.
 
-Continuity and Coherence:
+**Continuity and Coherence:**
 
 - The pattern ensures continuity in the conversation, allowing the AI to refer back to earlier points, ask follow-up questions, or clarify previous responses. This coherence is key to a natural and efficient user experience.
 
-Error Handling and Recovery:
+**Error Handling and Recovery:**
 
 - By keeping track of the conversation thread, the system can more effectively handle misunderstandings or errors. It can refer back to previous exchanges to clarify ambiguities or correct mistakes, thereby improving the overall interaction quality.
 
-Implementation Considerations:
+**Implementation Considerations:**
 
 - Implementing the Thread Context Pattern involves considerations around data storage (how to efficiently store and retrieve conversation history), privacy (ensuring user data is handled securely and in compliance with regulations), and scalability (managing context for a large number of concurrent conversations).
 
 Thread Context Pattern is essential for creating AI systems that can engage in meaningful, context-aware conversations with users. It underpins the system's ability to understand and remember the context of previous requests, which is key to delivering responses that are relevant, personalized, and coherent within the overall dialogue.
 
-
-
 [[IMAGE HERE]]
-
-
 
 ## **AI API Calling Gateway**
 
