@@ -20,7 +20,7 @@ In the context of AI integration, especially with systems like Azure's OpenAI's 
 
 The knowledge retrieval pattern is essential for building AI systems that can effectively access and leverage large datasets to provide accurate, relevant, and timely answers to user queries. It underpins various applications, from chatbots and virtual assistants to complex decision support systems and automated research tools. This pattern emphasizes the importance of not just retrieving data but processing and presenting it in a way that aligns with the user's needs and expectations.
 
-![Knowedge Retrieveal Pattern](https://github.com/dmarley/Azure-Connect-AI/blob/main/Images/KnowledgeRetrievealPattern.png?raw=true)
+![Knowedge Retrieveal Pattern](https://github.com/dmarley/Azure-Connect-AI/blob/main/Images/KnowledgeRetrievalPattern.png?raw=true)
 
 ## Function Calling Pattern
 
